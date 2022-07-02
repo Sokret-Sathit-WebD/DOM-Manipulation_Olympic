@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DOM Olympics</title>
+</head>
+<body>
+    <header id="header"></header>
+    <label>Theme</label>
+    <select id="themeDropDown">
+        <option value="themeOne">red/green</option>
+        <option value="themeTwo">black/gold</option>
+    </select>
+    <div id="main">
+        <button id='clearButton'>clear</button>
+        <div class="messages">
+            <div id="memoOne" class="message left">
+                I have something serious to talk about
+            </div>
+            <div id="memoTwo" class="message right">
+                I don't want to talk
+            </div>
+            <div id="memoThree" class="message left">
+                You have to, you're the police
+            </div>
+            <div id="memoFour" class="message right">
+                I'm just a simple farmer
+            </div>
+           <div id="newText" class="message left"  >
+                
+            </div>
+        </div>
+        <form id="form" name="message">
+            <input type="text" id="inputIt" placeholder="Talk to the DOOM Slayer!"/>
+            <button type="submit" id="sendIt" >Send</button>
+        </form>
+    </div>
+   
+    <script src="index.js"></script>
+</body>
+</html>
